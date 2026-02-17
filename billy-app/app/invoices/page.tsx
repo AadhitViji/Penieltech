@@ -28,7 +28,7 @@ export default function InvoicesPage() {
   }, []);
 
   return (
-    <div className="flex min-h-screen flex-col items-center bg-gradient-to-br from-slate-900 via-slate-950 to-emerald-900">
+    <div className="flex min-h-screen flex-col items-center bg-transparent">
       <div className="w-full max-w-4xl rounded-3xl bg-white/90 p-4 sm:p-8 shadow-xl mt-4 mb-4 sm:mt-10 sm:mb-10 mx-4">
         <div className="mb-4 sm:mb-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
           <h1 className="text-2xl sm:text-3xl font-semibold">Invoices</h1>

@@ -46,7 +46,7 @@ export default function InvoiceDetailPage() {
 
   if (!invoice) {
     return (
-      <div className="flex min-h-screen items-center justify-center bg-gradient-to-br from-slate-900 via-slate-950 to-emerald-900">
+      <div className="flex min-h-screen items-center justify-center bg-transparent">
         <div className="rounded-3xl bg-white/90 px-10 py-8 text-sm text-slate-700 shadow-xl">
           Loading invoice...
         </div>
@@ -55,8 +55,8 @@ export default function InvoiceDetailPage() {
   }
 
   return (
-    <div className="flex min-h-screen flex-col items-center bg-gradient-to-br from-slate-900 via-slate-950 to-emerald-900">
-      <div className="w-full max-w-4xl rounded-3xl bg-white p-8 shadow-xl mt-10 mb-10 print:shadow-none print:mt-0 print:mb-0">
+    <div className="flex min-h-screen flex-col items-center bg-transparent">
+      <div className="w-full max-w-4xl rounded-3xl bg-white/90 p-8 shadow-xl mt-10 mb-10 print:shadow-none print:mt-0 print:mb-0">
         <div className="mb-6 flex items-center justify-between print:hidden">
           <button
             type="button"

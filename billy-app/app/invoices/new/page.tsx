@@ -142,7 +142,7 @@ export default function NewInvoicePage() {
   }
 
   return (
-    <div className="flex min-h-screen flex-col items-center bg-gradient-to-br from-slate-900 via-slate-950 to-emerald-900">
+    <div className="flex min-h-screen flex-col items-center bg-transparent">
       <div className="w-full max-w-4xl rounded-3xl bg-white/90 p-8 shadow-xl mt-10 mb-10">
         <h1 className="text-3xl font-semibold mb-6">Create Invoice</h1>
 
